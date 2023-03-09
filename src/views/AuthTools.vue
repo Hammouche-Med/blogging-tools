@@ -42,7 +42,7 @@ const generatePwd = () => {
           <section
             class="w-100 p-4 pb-4 d-flex justify-content-center align-items-center flex-column"
           >
-            <img src="image/pwd.gif" alt="" />
+            <img src="../assets/image/pwd.gif" alt="" />
             <div class="form-row">
               <div class="col m-2">
                 <label class="form-check-label" for="lenght">

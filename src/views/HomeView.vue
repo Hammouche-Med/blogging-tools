@@ -25,7 +25,7 @@ const formatString = (str) => {
           <section
             class="w-100 p-4 pb-4 d-flex justify-content-center align-items-center flex-column"
           >
-            <img src="image/slug-scream.gif" alt="" />
+            <img src="../assets/image/slug-scream.gif" alt="" />
             <div>
               <div class="input-group">
                 <div class="form-outline">
