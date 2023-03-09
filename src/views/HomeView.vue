@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from "vue";
-import navBar from "../components/navBar.vue";
 
 const title = ref("");
 const slug = ref("");
@@ -16,7 +15,6 @@ const formatString = (str) => {
 </script>
 
 <template>
-  <navBar />
   <div class="container">
     <section>
       <h2 class="mb-4">Title2Slug</h2>
@@ -27,6 +25,7 @@ const formatString = (str) => {
           <section
             class="w-100 p-4 pb-4 d-flex justify-content-center align-items-center flex-column"
           >
+            <img src="image/slug-scream.gif" alt="" />
             <div>
               <div class="input-group">
                 <div class="form-outline">

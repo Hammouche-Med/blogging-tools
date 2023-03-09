@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- <a class="navbar-brand" href="#">SS-Tools</a>
+    <a class="navbar-brand" href="#">SS-Tools</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -16,11 +16,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#"
-            >Slugify <span class="sr-only">(current)</span></a
-          >
+          <router-link class="nav-link" to="/">Slugify </router-link>
+        </li>
+        <li class="nav-item active">
+          <router-link class="nav-link" to="/password-generator"
+            >Thou Shall Not? Pass
+          </router-link>
         </li>
       </ul>
-    </div> -->
+    </div>
   </nav>
 </template>
